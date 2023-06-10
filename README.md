@@ -1,3 +1,44 @@
+# EGE-Bot ниже на русском языке
+
+This project is a Telegram bot for viewing EGE (Unified State Exam) results from the gia.edunord.ru website.
+
+## Installation
+
+1. Install the necessary dependencies by running the following command:
+
+   ```
+   pip install aiogram selenium bs4 lxml
+   ```
+
+2. Download the Chrome WebDriver and place the executable file in the driver's path. Make sure you have Google Chrome installed.
+
+3. Run the `main.py` file to start the bot:
+
+   ```
+   python main.py
+   ```
+
+## Usage
+
+1. Add your Telegram bot token to the `token` variable in the `main.py` file.
+
+2. When the bot is launched, it will respond to the `/start` command.
+
+3. The bot will prompt the user for EGE result access credentials, such as last name, first name, patronymic, passport series, and number.
+
+4. After entering the data, the bot will make a request to the official EGE website and display the exam results.
+
+5. The user can change the data by sending the `/change` command.
+
+## Contact
+
+You can contact the project developer using the following contacts:
+- Telegram: [@memr404]
+- Email: [memr404@gmail.com]
+
+
+
+
 # ЕГЭ-бот
 
 Этот проект представляет собой телеграм-бот для просмотра результатов ЕГЭ c сайта gia.edunord.ru
